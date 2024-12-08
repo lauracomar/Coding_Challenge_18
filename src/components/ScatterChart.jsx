@@ -5,7 +5,7 @@ const ScatterChart = () => {
     const data = {
         datasets: [
             {
-                label: 'Expenses vs. Profits',
+                label: 'expenses vs. profits',
                 data: [
                     { x: 10, y: 20 },
                     { x: 15, y: 25 }
@@ -17,8 +17,8 @@ const ScatterChart = () => {
 
     const options = {
         scales: {
-            x: { beginAtZero: true, title: { display: true, text: 'Expenses' } },
-            y: { beginAtZero: true, title: { display: true, text: 'Profits' } },
+            x: { beginAtZero: true, title: { display: true, text: 'expenses' } },
+            y: { beginAtZero: true, title: { display: true, text: 'profits' } },
         },
     };
 

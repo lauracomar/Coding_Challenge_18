@@ -5,12 +5,12 @@ const BubbleChart = () => {
     const data = {
         datasets: [
             {
-                label: 'Sales Analysis',
+                label: 'sales analysis',
                 data: [
                     { x: 10, y: 20, r: 15 },
                     { x: 25, y: 30, r: 10 }
                 ],
-                backgroundColor: 'rgba(153, 102, 255, 0.6)',
+                backgroundColor: 'rgba(155, 105, 260, 0.6)',
             },
         ],
     };
@@ -20,8 +20,8 @@ const BubbleChart = () => {
             tooltip: { enabled: true },
         },
         scales: {
-            x: { beginAtZero: true, title: { display: true, text: 'Sales Volume' } },
-            y: { beginAtZero: true, title: { display: true, text: 'Revenue' } },
+            x: { beginAtZero: true, title: { display: true, text: 'sales volume' } },
+            y: { beginAtZero: true, title: { display: true, text: 'revenue' } },
         },
     };
 
